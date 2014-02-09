@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo "Adding the jenkins apt-key"
+
+sudo wget -q -O - http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | apt-key add -
+sudo echo deb http://pkg.jenkins-ci.org/debian binary/ > /etc/apt/sources.list.d/jenkins.list
+
+sudo apt-get update
+
+echo "Installing Jenkins-ci"
+
+sudo apt-get install jenkins
