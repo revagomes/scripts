@@ -1,3 +1,4 @@
+#!/bin/bash
 
 MYSQL_VERSION="5.5.29-rel29.4"
 

@@ -1,3 +1,4 @@
+#!/bin/bash
 
 LIBEVENT_VERSION="libevent-2.0.21-stable"
 MEMCACHED_VERSION="1.4.15"

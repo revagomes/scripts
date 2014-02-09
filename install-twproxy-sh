@@ -1,3 +1,5 @@
+#!/bin/bash
+
 VERSION="0.2.3"
 
 #http://twemproxy.googlecode.com/files/nutcracker-0.2.3.tar.gz

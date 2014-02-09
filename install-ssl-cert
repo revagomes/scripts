@@ -1,3 +1,5 @@
+#!/bin/bash
+
 apt-get install ssl-cert
 make-ssl-cert generate-default-snakeoil --force-overwrite
 cd /etc/ssl

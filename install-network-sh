@@ -1,3 +1,4 @@
+#!/bin/bash
 
 echo "Disable ping from Internet/Intranet by adding the line below to /etc/rc.d/rc.local"
 echo "echo 1 > /proc/sys/net/ipv4/icmp_echo_ignore_all" | sudo sh
